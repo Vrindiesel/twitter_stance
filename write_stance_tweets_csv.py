@@ -34,7 +34,6 @@ dataset_id = 7
 # timestamp in format that is filename friendly
 currtime = str(datetime.datetime.now())
 currtime = currtime.replace(' ','-').replace(':','-').split('.')[0]
-# TODO: change to relative directory
 csv_dir = './stance_hashtag_csvs/'
 # file with random tweet text, 1 per line
 # random_tweet_file = "/home/nick/TwitterSearchToDatabase/random_tweets/random-20k.tweet"

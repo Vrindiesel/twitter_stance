@@ -29,7 +29,7 @@ alphaChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#@'
 currtime = str(datetime.datetime.now())
 currtime = currtime.replace(' ','-').replace(':','-').split('.')[0]
 
-queriesFolder = '/home/nick/TwitterSearchToDatabase/queries_for_amita'
+queriesFolder = './queries_for_amita'
 
 def searchQuery(ts, query):
     query = query.lower()
